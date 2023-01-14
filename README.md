@@ -1,6 +1,6 @@
 pipeline {
-  agent {  label 'test'
-    }
+  agent any
+   
   
   stages {
     stage ('this is first stage'){
