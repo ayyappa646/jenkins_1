@@ -1,5 +1,6 @@
 pipeline {
-  agent any 
+  agent {('test')
+    }
   
   stages {
     stage ('this is first stage'){
