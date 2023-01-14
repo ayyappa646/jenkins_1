@@ -17,5 +17,10 @@ pipeline {
         echo "thirs stage from the git and github"
         }
        }
+      stage ('fourth') {
+        steps (fourth) {
+          echo ("fourth")
+          }
+      }
   }
 }
