@@ -12,5 +12,10 @@ pipeline {
       echo "this is second stage from the jenkins"
       }
      }
+    stage ('this is third stage from the jenkins'){
+      steps ("thirs stage"){
+        echo "thirs stage from the git and github"
+        }
+       }
   }
 }
