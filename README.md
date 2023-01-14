@@ -1,5 +1,5 @@
 pipeline {
-  agent {(labal 'test')
+  agent {(labal test)
     }
   
   stages {
